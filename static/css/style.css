@@ -1,0 +1,28 @@
+body {
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-exchange {
+    width: 40%;
+    margin: 80px auto;
+}
+
+label {
+    color: rgb(227, 227, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+}
+
+input {
+    margin-top: 30px;
+}

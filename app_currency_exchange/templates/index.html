@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <form action="" method="POST" class="form-exchange">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" name="button" class="btn btn-warning">Submit</button>
+        <br>
+        <br>
+        {% if message %}
+        <h4 class="result form-control">{{ message }}</h4>
+        {% endif %}
+    </form>
+</div>
+{% endblock %}
